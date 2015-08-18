@@ -6,6 +6,7 @@
 
 #Atividade
  Como atividade em laboratório, implemente um servidor RPC em Node.js que permita a execução remota transparente das seguintes operações:
+ 
 	• soma(a, b) → a + b
 	
 	• fatorial(a) → a!
