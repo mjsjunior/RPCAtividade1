@@ -6,7 +6,20 @@ exports.fatorial=function(req,res,params){
     console.log(params);
     var n1 =  parseInt(params.n1)
    
-    res.writeHead(200, { 'Content-Type':'text/html' });
+  
     var resultado = math.factorial(n1)
-    res.write("Fatorial: "+resultado);
+    res.end("Fatorial: "+resultado);
+
+     	res.writeHead(200, {'Content-Type': 'text/plain'});
+   	res.end(''+resultado+'');
+  
+
+
+
+
+
+
+
+
+
 }

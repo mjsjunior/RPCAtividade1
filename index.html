@@ -31,10 +31,10 @@
 				<h5>Somando dois números</h5>
 					<form action="/soma" method="GET">
 						<div class="input-field col s6">
-							<input type="text" name="n1" placeholder="Digite o primeiro número...">
+							<input type="text" name="n1" id="soma-n1" placeholder="Digite o primeiro número...">
 						</div>
 						<div class="input-field col s6">
-							<input type="text" name="n2" placeholder="Digite o primeiro número...">
+							<input type="text" name="n2" id="soma-n2" placeholder="Digite o primeiro número...">
 						</div>
 						 <button class="btn waves-effect waves-light" type="submit" >Calcular
 						    <i class="material-icons">queue</i>
@@ -46,12 +46,12 @@
 			<div class="col offset-s3 s6 center">
 				<div id="exponenciacao" class="block">
 				<h5>Exponenciação</h5>
-					<form action="/exponenciacao" method="GET">
+					<form action="/exponenciacao" method="GET" id="expo">
 						<div class="input-field col s6">
-							<input type="text" name="n1"placeholder="Digite o primeiro número...">
+							<input type="text" name="n1" id="expo-n1" placeholder="Digite o primeiro número...">
 						</div>
 						<div class="input-field col s6">
-							<input type="text" name="n2" placeholder="Digite o primeiro número...">
+							<input type="text" name="n2" id="expo-n2" placeholder="Digite o primeiro número...">
 						</div>
 						 <button class="btn waves-effect waves-light" type="submit" >Calcular
 						    <i class="material-icons">queue</i>
@@ -63,9 +63,9 @@
 			<div class="col offset-s3 s6 center">
 				<div id="fatorial" class="block">
 					<h5>Fatorial</h5>
-					<form action="/fatorial" method="GET">
+					<form action="/fatorial" method="GET" id="fat">
 						<div class="input-field col s12">
-							<input type="text" name="n1" placeholder="Digite o primeiro número...">
+							<input type="text" name="n1" id="fatorial-n1" placeholder="Digite o primeiro número...">
 						</div>
 						
 						 <button class="btn waves-effect waves-light" type="submit" >Calcular
@@ -96,6 +96,46 @@
 		    	$('.block').css('display','none');
 		    	$('#exponenciacao').css('display','block');
 		    })
+
+
+			$('#soma').submit(function(){
+				var n1 = $('#soma-n1').val();
+				var n2 = $('#soma-n2').val();
+
+				$.get("/soma",{n1:n1,n2:n2})
+				  
+				  .done(function( data ) {
+				    alert( "Resposta: " + data);
+				  });
+				return false;
+			})
+
+
+
+			$('#fat').submit(function(){
+				var n1 = $('#fatorial-n1').val();
+
+				$.get("/fatorial",{n1:n1})
+				  
+				  .done(function( data ) {
+				    alert( "Resposta: " + data);
+				  });
+				return false;
+			})
+
+
+			$('#expo').submit(function(){
+				var n1 = $('#expo-n1').val();
+				var n2 = $('#expo-n2').val();
+				$.get("/exponenciacao",{n1:n1,n2:n2})
+				  
+				  .done(function( data ) {
+				    alert( "Resposta: " + data);
+				  });
+				return false;
+			})
+
+
 		});
 	</script>
 </body>

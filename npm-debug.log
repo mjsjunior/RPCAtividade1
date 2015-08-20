@@ -1,0 +1,1341 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'mathjs' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/administrador/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose cache add [ 'mathjs', null ]
+silly cache add: name, spec, args [ undefined, 'mathjs', [ 'mathjs', null ] ]
+verbose parsed url { pathname: 'mathjs', path: 'mathjs', href: 'mathjs' }
+verbose addNamed [ 'mathjs', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'mathjs', '', false ]
+verbose raw, before any munging mathjs
+verbose url resolving [ 'https://registry.npmjs.org/', './mathjs' ]
+verbose url resolved https://registry.npmjs.org/mathjs
+verbose etag "5Y0QBBCCOAH38H0VKJKSGDMVU"
+http GET https://registry.npmjs.org/mathjs
+silly get cb [ 304, undefined ]
+verbose etag mathjs from cache
+silly name, range, hasData 2 [ 'mathjs', '', true ]
+silly versions [ 'mathjs',
+silly versions   [ '0.0.2',
+silly versions     '0.1.0',
+silly versions     '0.2.0',
+silly versions     '0.3.0',
+silly versions     '0.4.0',
+silly versions     '0.5.0',
+silly versions     '0.6.0',
+silly versions     '0.7.0',
+silly versions     '0.7.1',
+silly versions     '0.7.2',
+silly versions     '0.8.0',
+silly versions     '0.8.1',
+silly versions     '0.8.2',
+silly versions     '0.9.0',
+silly versions     '0.9.1',
+silly versions     '0.10.0',
+silly versions     '0.11.0',
+silly versions     '0.11.1',
+silly versions     '0.12.0',
+silly versions     '0.12.1',
+silly versions     '0.13.0',
+silly versions     '0.14.0',
+silly versions     '0.15.0',
+silly versions     '0.16.0',
+silly versions     '0.17.0',
+silly versions     '0.17.1',
+silly versions     '0.18.0',
+silly versions     '1.2.0',
+silly versions     '1.3.0',
+silly versions     '1.4.0',
+silly versions     '1.5.0',
+silly versions     '1.5.1',
+silly versions     '1.5.2',
+silly versions     '1.6.0',
+silly versions     '1.7.0',
+silly versions     '1.7.1',
+silly versions     '2.0.0',
+silly versions     '2.0.1',
+silly versions     '2.1.0',
+silly versions     '2.1.1' ] ]
+verbose bin dist [ '0.6-ares1.7.5-evundefined-openssl1.0.1-v83.7.12.22-linux-x64-3.2.0-31-generic',
+verbose bin dist   { shasum: '4d206a16e67540ba1632f240323bf62d18457e34',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mathjs/-/mathjs-2.1.1.tgz' } ]
+verbose caching /home/administrador/.npm/mathjs/2.1.1/package/package.json
+verbose loadDefaults mathjs@2.1.1
+silly resolved [ { name: 'mathjs',
+silly resolved     version: '2.1.1',
+silly resolved     description: 'Math.js is an extensive math library for JavaScript and Node.js. It features a flexible expression parser and offers an integrated solution to work with numbers, big numbers, complex numbers, units, and matrices.',
+silly resolved     author: 
+silly resolved      { name: 'Jos de Jong',
+silly resolved        email: 'wjosdejong@gmail.com',
+silly resolved        url: 'https://github.com/josdejong' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Andy Pan', url: 'https://github.com/andy0130tw' },
+silly resolved        { name: 'Bart Kiers', url: 'https://github.com/bkiers' },
+silly resolved        { name: 'Bryan Cuccioli', url: 'https://github.com/bcuccioli' },
+silly resolved        { name: 'Daniel Levin', url: 'https://github.com/daniel-levin' },
+silly resolved        { name: 'Devan Patel', url: 'https://github.com/devanp92' },
+silly resolved        { name: 'Elijah Insua', url: 'https://github.com/tmpvar' },
+silly resolved        { name: 'Eric Mansfield', url: 'https://github.com/ericman314' },
+silly resolved        { name: 'Fabrice Colas',
+silly resolved          url: 'https://github.com/fabricecolas' },
+silly resolved        { name: 'Favian Contreras', url: 'https://github.com/BigFav' },
+silly resolved        { name: 'Finn Pauls', url: 'https://github.com/finnp' },
+silly resolved        { name: 'Ganga Christopher',
+silly resolved          url: 'https://github.com/gangachris' },
+silly resolved        { name: 'Guillermo Indalecio Fernández',
+silly resolved          url: 'https://github.com/guillermobox' },
+silly resolved        { name: 'Huseyn Guliyev', url: 'https://github.com/husayt' },
+silly resolved        { name: 'Jim Garrison', url: 'https://github.com/garrison' },
+silly resolved        { name: 'Kenan Yildirim', url: 'https://github.com/KenanY' },
+silly resolved        { name: 'Kunal Vyas', url: 'https://github.com/kv-kunalvyas' },
+silly resolved        { name: 'Marcus Andre', url: 'https://github.com/marcusandre' },
+silly resolved        { name: 'Max Bruckner', url: 'https://github.com/FSMaxB' },
+silly resolved        { name: 'Mitchel Kelonye', url: 'https://github.com/kelonye' },
+silly resolved        { name: 'Niels Heisterkamp',
+silly resolved          url: 'https://github.com/nheisterkamp' },
+silly resolved        { name: 'Owen Versteeg',
+silly resolved          url: 'https://github.com/owenversteeg' },
+silly resolved        { name: 'Pavel Panchekha',
+silly resolved          url: 'https://github.com/pavpanchekha' },
+silly resolved        { name: 'Pete Corey', url: 'https://github.com/pcorey' },
+silly resolved        { name: 'Rogelio J. Baucells',
+silly resolved          url: 'https://github.com/rjbaucells' },
+silly resolved        { name: 'Ryan Seys', url: 'https://github.com/ryanseys' },
+silly resolved        { name: 'Sebastien Piquemal', url: 'https://github.com/sebpiq' },
+silly resolved        { name: 'Sergey Romanov', url: 'https://github.com/saromanov' },
+silly resolved        { name: 'Waldir Pimenta', url: 'https://github.com/waldyrious' },
+silly resolved        { name: 'Zach Zibrat', url: 'https://github.com/palimpsests' },
+silly resolved        { name: 'hamadu', url: 'https://github.com/hamadu' },
+silly resolved        { name: 'mtraynham', url: 'https://github.com/mtraynham' } ],
+silly resolved     homepage: 'http://mathjs.org',
+silly resolved     repository: { type: 'git', url: 'git://github.com/josdejong/mathjs.git' },
+silly resolved     license: 'Apache-2.0',
+silly resolved     keywords: 
+silly resolved      [ 'math',
+silly resolved        'mathematics',
+silly resolved        'functions',
+silly resolved        'numeric',
+silly resolved        'parser',
+silly resolved        'expression',
+silly resolved        'number',
+silly resolved        'bignumber',
+silly resolved        'complex',
+silly resolved        'matrix',
+silly resolved        'unit' ],
+silly resolved     dependencies: 
+silly resolved      { 'decimal.js': '^4.0.2',
+silly resolved        'fraction.js': '^2.0.0',
+silly resolved        'tiny-emitter': '^1.0.0',
+silly resolved        'typed-function': '^0.10.1' },
+silly resolved     devDependencies: 
+silly resolved      { glob: '^5.0.5',
+silly resolved        gulp: '^3.8.11',
+silly resolved        'gulp-util': '^3.0.4',
+silly resolved        istanbul: '^0.3.13',
+silly resolved        mkdirp: '^0.5.0',
+silly resolved        mocha: '^2.2.4',
+silly resolved        q: '^1.2.0',
+silly resolved        'seed-random': '^2.2.0',
+silly resolved        tar: '^2.1.0',
+silly resolved        'uglify-js': '^2.4.20',
+silly resolved        underscore: '^1.8.3',
+silly resolved        webpack: '^1.8.9' },
+silly resolved     main: './index',
+silly resolved     scripts: 
+silly resolved      { build: 'gulp',
+silly resolved        watch: 'gulp watch',
+silly resolved        docs: 'gulp docs',
+silly resolved        test: 'mocha test --recursive',
+silly resolved        coverage: 'istanbul cover _mocha -- test --recursive; echo "\nCoverage report is available at ./coverage/lcov-report/index.html"' },
+silly resolved     bin: { mathjs: './bin/cli.js' },
+silly resolved     engines: { node: '>= 0.1' },
+silly resolved     _id: 'mathjs@2.1.1',
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.1.4',
+silly resolved     _nodeVersion: 'v0.6.12',
+silly resolved     _defaultsLoaded: true,
+silly resolved     _from: 'mathjs' } ]
+info into /home/administrador/Documents/SD/NodeRPC mathjs@2.1.1
+info installOne mathjs@2.1.1
+verbose from cache /home/administrador/.npm/mathjs/2.1.1/package/package.json
+info unbuild /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs
+verbose mkdir (expected) error ENOENT, no such file or directory '/home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm'
+verbose mkdir done: /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm 755
+verbose unpack_ uid, gid [ 1000, 1000 ]
+verbose unpackTarget /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs
+silly gunzTarPerm modes [ '755', '644' ]
+silly afterUntar ok
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/ROADMAP.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/CONTRIBUTING.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/core.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/HISTORY.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/composer.json
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/package.json
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/LICENSE
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/NOTICE
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/README.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/dist
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/dist/math.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/dist/math.map
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/dist/math.min.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/bin
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/bin/repl.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/bin/cli.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/fractions.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/import.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/bignumbers.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/units.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/serialization.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/chaining.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/sparse_matrices.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/complex_numbers.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/basic_usage.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/matrices.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/expressions.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/old_browsers.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/plot.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/angle_configuration.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/pretty_printing_with_mathjax.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/requirejs_loading.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/basic_usage.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/custom_separators.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/webworkers
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/webworkers/worker.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/browser/webworkers/webworkers.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/expression_trees.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/fallback_from_fraction_to_bignumber.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/function_transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/custom_loading.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/custom_argument_parsing.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/add_new_datatypes
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/add_new_datatypes/MyType.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/add_new_datatypes/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/examples/advanced/add_new_datatypes/myAdd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/command_line_interface.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/getting_started.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/expressions.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/introduction.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/serialization.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/chained_operations.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/index.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/custom_bundling.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/chaining.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/configuration.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/extension.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/datatypes
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/datatypes/units.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/datatypes/complex_numbers.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/datatypes/numbers.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/datatypes/bignumbers.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/datatypes/index.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/datatypes/fractions.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/datatypes/matrices.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/expressions
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/expressions/expression_trees.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/expressions/parsing.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/expressions/customization.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/expressions/index.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/expressions/syntax.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/units.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/constants.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/index.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/rightArithShift.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/unaryMinus.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/alphabetical.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/pickRandom.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/rightLogShift.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/subset.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/arg.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/multiply.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/isNumeric.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/norm.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/floor.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/unaryPlus.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/fix.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/composition.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/xgcd.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/combinations.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/trace.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/random.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/or.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/sign.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/diag.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/isPositive.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/acoth.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/min.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/sin.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/tanh.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/distribution.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/cos.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/fraction.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/subtract.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/sinh.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/resize.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/number.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/flatten.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/bellNumbers.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/xor.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/unit.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/tan.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/concat.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/permutations.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/lup.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/gcd.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/multinomial.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/im.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/dotMultiply.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/typeof.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/kldivergence.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/transpose.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/coth.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/atan2.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/dotPow.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/pow.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/gamma.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/leftShift.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/complex.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/exp.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/dot.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/sort.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/filter.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/sum.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/cosh.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/ones.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/cross.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/ceil.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/divide.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/inv.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/intersect.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/usolve.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/acos.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/size.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/bitNot.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/help.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/sech.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/quantileSeq.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/parser.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/asinh.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/lcm.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/mean.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/acot.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/zeros.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/sqrt.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/re.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/asec.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/chain.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/lusolve.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/asin.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/median.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/map.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/bitOr.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/cot.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/sec.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/largerEq.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/acosh.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/cube.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/smaller.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/mod.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/squeeze.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/categorical.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/prod.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/stirlingS2.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/atanh.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/round.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/unequal.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/parse.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/and.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/string.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/acsch.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/index.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/smallerEq.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/clone.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/log.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/range.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/partitionSelect.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/bitAnd.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/eye.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/dotDivide.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/eval.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/larger.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/csc.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/isNegative.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/print.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/std.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/slu.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/compile.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/square.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/randomInt.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/bitXor.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/nthRoot.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/not.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/compare.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/isInteger.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/deepEqual.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/add.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/var.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/log10.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/abs.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/mode.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/format.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/det.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/lsolve.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/to.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/acsc.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/atan.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/asech.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/bignumber.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/conj.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/forEach.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/isZero.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/equal.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/max.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/factorial.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/csch.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/matrix.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/docs/reference/functions/boolean.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/deprecated.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/constants.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/test.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/pi_machin.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/index.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/test.min.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/pi_bailey-borwein-plouffe.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/approx.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/test_bignumber.html
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/README.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/error
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/error/DimensionError.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/error/index.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/error/ArgumentsError.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/error/IndexError.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/json
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/json/replacer.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/json/reviver.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/core
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/core/config.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/core/import.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/core/index.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/parse.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/Parser.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/keywords.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/Help.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/operators.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/function/compile.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/function/parse.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/function/parser.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/function/eval.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/function/help.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/RangeNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/BlockNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/UpdateNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/SymbolNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/Node.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/index.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/OperatorNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/FunctionNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/ArrayNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/FunctionAssignmentNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/ConstantNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/AssignmentNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/IndexNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/ParenthesisNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/expression/node/ConditionalNode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/boolean.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/types.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/function.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/latex.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/object.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/NumberFormatter.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/string.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/array.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/number.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/bignumber
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/bignumber/constants.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/utils/bignumber/formatter.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/combinatorics
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/combinatorics/bellNumbers.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/combinatorics/stirlingS2.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/combinatorics/composition.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/factorial.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/random.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/permutations.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/distribution.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/multinomial.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/kldivergence.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/gamma.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/pickRandom.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/combinations.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/probability/randomInt.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/prod.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/var.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/median.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/min.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/sum.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/mean.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/max.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/quantileSeq.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/std.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/statistics/mode.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/sort.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/isNumeric.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/isZero.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/clone.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/filter.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/isPositive.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/print.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/map.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/isNegative.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/forEach.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/isInteger.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/typeof.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/format.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/utils/partitionSelect.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/geometry
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/geometry/intersect.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/multiply.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/dotMultiply.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/ceil.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/log.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/fix.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/unaryPlus.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/gcd.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/unaryMinus.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/divide.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/round.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/mod.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/nthRoot.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/log10.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/sign.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/exp.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/pow.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/add.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/xgcd.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/floor.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/square.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/dotPow.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/lcm.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/abs.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/dotDivide.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/norm.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/subtract.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/addScalar.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/cube.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/arithmetic/sqrt.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/units
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/units/to.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational/compare.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational/equal.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational/unequal.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational/smaller.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational/larger.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational/deepEqual.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational/largerEq.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/relational/smallerEq.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/acot.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/csch.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/acoth.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/acosh.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/asinh.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/tanh.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/acsch.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/cos.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/sin.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/sec.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/sinh.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/cot.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/atan.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/acsc.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/acos.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/cosh.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/asec.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/atan2.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/coth.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/atanh.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/asech.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/sech.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/asin.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/csc.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/trigonometry/tan.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/bitwise
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/bitwise/leftShift.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/bitwise/rightArithShift.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/bitwise/bitXor.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/bitwise/bitOr.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/bitwise/bitNot.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/bitwise/rightLogShift.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/bitwise/bitAnd.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/logical
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/logical/not.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/logical/xor.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/logical/or.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/logical/and.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/complex
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/complex/conj.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/complex/arg.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/complex/im.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/complex/re.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/transpose.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/cross.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/concat.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/resize.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/dot.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/range.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/trace.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/subset.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/ones.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/zeros.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/eye.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/squeeze.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/det.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/flatten.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/inv.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/diag.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/matrix/size.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/solver
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/solver/usolve.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/solver/lusolve.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/solver/lsolve.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/sparse
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/sparse/cs_lu.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/sparse/cs_amd.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/decomposition
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/decomposition/slu.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/function/algebra/decomposition/lup.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/boolean.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/string.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/number.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/resultset
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/resultset/ResultSet.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/unit
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/unit/physicalConstants.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/unit/Unit.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/unit/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/unit/function/unit.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/chain
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/chain/Chain.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/chain/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/chain/function/chain.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/fraction
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/fraction/Fraction.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/fraction/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/fraction/function/fraction.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/complex
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/complex/Complex.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/complex/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/complex/function/complex.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/bignumber
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/bignumber/BigNumber.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/bignumber/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/bignumber/function/bignumber.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/Index.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/FibonacciHeap.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/Range.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/collection.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/Matrix.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/SparseMatrix.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/Spa.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/DenseMatrix.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/ImmutableDenseMatrix.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/function/matrix.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/function/index.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/function/sparse.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/utils
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/utils/deepMap.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/utils/reduce.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/utils/isCollection.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/test/type/matrix/utils/deepForEach.test.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/version.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/constants.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/header.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/json
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/json/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/json/reviver.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/error
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/error/IndexError.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/error/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/error/DimensionError.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/error/ArgumentsError.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/core
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/core/typed.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/core/import.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/core/core.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/core/config.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/function.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/number.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/types.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/string.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/boolean.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/object.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/array.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/NumberFormatter.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/latex.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/emitter.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/collection
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/collection/reduce.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/collection/isCollection.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/collection/scatter.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/collection/deepForEach.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/collection/deepMap.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/bitOr.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/atan2.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/bitAnd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/leftShift.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/atanAcot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/acosAsec.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/tanhCoth.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/atanhAcoth.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/bitwise.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/tanCot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/asin.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/bitNot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/atan.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/sinToCos.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/asinNewton.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/constants.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/cosSin.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/cosSinSecCsc.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/asinAcsc.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/bitXor.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/coshSinhCschSech.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/rightArithShift.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/formatter.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/reduceToPeriod.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/utils/bignumber/acoshAsinhAsechAcsch.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/number.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/string.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/boolean.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/resultset
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/resultset/ResultSet.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/resultset/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/unit
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/unit/Unit.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/unit/physicalConstants.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/unit/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/unit/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/unit/function/unit.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/chain
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/chain/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/chain/Chain.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/chain/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/chain/function/chain.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/fraction
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/fraction/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/fraction/Fraction.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/fraction/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/fraction/function/fraction.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/bignumber
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/bignumber/BigNumber.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/bignumber/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/bignumber/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/bignumber/function/bignumber.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/complex
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/complex/Complex.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/complex/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/complex/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/complex/function/complex.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/Range.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/SparseMatrix.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/MatrixIndex.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/FibonacciHeap.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/DenseMatrix.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/Spa.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/ImmutableDenseMatrix.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/Matrix.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/function/matrix.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/function/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/function/sparse.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm03.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm08.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm05.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm11.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm09.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm14.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm01.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm02.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm07.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm12.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm06.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm10.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm13.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/algorithm04.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/type/matrix/utils/README.md
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/combinatorics
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/combinatorics/bellNumbers.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/combinatorics/composition.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/combinatorics/stirlingS2.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/combinatorics/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/factorial.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/distribution.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/pickRandom.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/random.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/randomInt.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/gamma.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/kldivergence.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/multinomial.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/combinations.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/probability/permutations.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/mode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/quantileSeq.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/median.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/sum.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/std.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/var.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/prod.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/mean.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/min.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/statistics/max.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/filter.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/isInteger.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/partitionSelect.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/isNegative.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/typeof.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/isZero.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/isPositive.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/print.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/isNumeric.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/clone.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/format.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/forEach.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/sort.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/utils/map.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/geometry
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/geometry/intersect.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/geometry/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/abs.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/log10.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/floor.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/square.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/norm.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/subtract.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/unaryPlus.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/divide.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/ceil.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/dotDivide.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/round.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/cube.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/addScalar.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/dotPow.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/multiply.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/lcm.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/add.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/exp.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/pow.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/xgcd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/gcd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/fix.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/mod.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/dotMultiply.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/divideScalar.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/unaryMinus.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/multiplyScalar.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/sqrt.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/log.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/sign.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/arithmetic/nthRoot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/units
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/units/to.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/units/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/largerEq.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/equalScalar.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/compare.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/smaller.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/unequal.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/smallerEq.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/equal.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/larger.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/relational/deepEqual.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/atan2.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/acos.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/acot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/acsch.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/sec.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/asec.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/tan.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/sech.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/asinh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/acsc.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/asin.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/atan.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/cot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/sinh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/acosh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/csc.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/csch.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/atanh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/acoth.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/sin.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/cosh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/asech.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/cos.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/coth.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/trigonometry/tanh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise/bitOr.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise/bitAnd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise/leftShift.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise/bitNot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise/bitXor.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise/rightArithShift.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/bitwise/rightLogShift.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/logical
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/logical/and.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/logical/not.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/logical/xor.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/logical/or.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/logical/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/complex
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/complex/arg.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/complex/im.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/complex/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/complex/conj.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/complex/re.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/size.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/det.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/trace.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/flatten.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/range.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/eye.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/ones.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/subset.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/resize.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/transpose.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/diag.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/concat.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/dot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/cross.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/zeros.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/inv.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/matrix/squeeze.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_symperm.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_dfs.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_post.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_tdfs.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_unflip.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_counts.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_flip.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_ipvec.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_leaf.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_lu.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_amd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_permute.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_sqr.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_etree.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_mark.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_ereach.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_fkeep.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_marked.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_cumsum.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_reach.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_spsolve.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/sparse/cs_chol.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/decomposition
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/decomposition/lup.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/decomposition/slu.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/solver
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/solver/usolve.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/solver/lusolve.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/solver/lsolve.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/solver/utils
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/function/algebra/solver/utils/solveValidation.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/Parser.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/parse.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/operators.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/keywords.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/Help.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/function/eval.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/function/compile.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/function/help.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/function/parser.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/function/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/function/parse.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/max.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/range.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/error.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/map.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/filter.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/index.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/mean.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/concat.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/min.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/forEach.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/transform/subset.transform.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/ParenthesisNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/AssignmentNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/BlockNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/FunctionAssignmentNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/RangeNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/UpdateNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/FunctionNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/Node.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/ConstantNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/IndexNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/OperatorNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/SymbolNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/ConditionalNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/node/ArrayNode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/Infinity.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/NaN.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/LOG2E.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/SQRT2.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/LOG10E.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/true.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/e.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/version.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/SQRT1_2.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/i.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/null.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/tau.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/LN10.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/pi.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/LN2.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/false.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/constants/phi.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/unit.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/number.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/string.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/boolean.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/matrix.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/bignumber.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/index.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/fraction.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/complex.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/type/sparse.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/combinatorics
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/combinatorics/bellNumbers.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/combinatorics/composition.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/combinatorics/stirlingS2.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/expression
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/expression/eval.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/expression/help.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/factorial.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/distribution.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/pickRandom.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/random.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/randomInt.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/gamma.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/kldivergence.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/multinomial.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/combinations.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/probability/permutations.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/algebra
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/algebra/usolve.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/algebra/lup.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/algebra/slu.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/algebra/lusolve.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/algebra/lsolve.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/mode.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/quantileSeq.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/median.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/sum.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/std.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/var.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/prod.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/mean.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/min.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/statistics/max.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/filter.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/isInteger.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/partitionSelect.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/import.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/isNegative.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/typeof.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/isZero.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/isPositive.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/print.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/isNumeric.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/clone.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/format.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/forEach.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/sort.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/utils/map.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/geometry
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/geometry/intersect.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/abs.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/log10.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/floor.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/square.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/norm.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/subtract.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/unaryPlus.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/divide.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/ceil.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/dotDivide.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/round.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/cube.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/dotPow.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/multiply.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/lcm.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/add.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/exp.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/pow.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/xgcd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/gcd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/fix.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/mod.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/dotMultiply.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/unaryMinus.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/sqrt.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/log.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/sign.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/arithmetic/nthRoot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/units
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/units/to.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational/largerEq.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational/compare.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational/smaller.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational/unequal.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational/smallerEq.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational/equal.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational/larger.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/relational/deepEqual.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/atan2.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/acos.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/acot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/acsch.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/sec.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/asec.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/tan.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/sech.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/asinh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/acsc.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/asin.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/atan.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/cot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/sinh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/acosh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/csc.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/csch.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/atanh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/acoth.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/sin.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/cosh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/asech.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/cos.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/coth.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/trigonometry/tanh.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/bitwise
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/bitwise/bitOr.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/bitwise/bitAnd.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/bitwise/leftShift.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/bitwise/bitNot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/bitwise/bitXor.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/bitwise/rightArithShift.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/bitwise/rightLogShift.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/logical
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/logical/and.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/logical/not.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/logical/xor.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/logical/or.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/complex
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/complex/arg.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/complex/im.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/complex/conj.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/complex/re.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/size.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/det.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/trace.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/flatten.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/range.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/eye.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/ones.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/subset.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/resize.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/transpose.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/diag.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/concat.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/dot.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/cross.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/zeros.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/inv.js
+silly asyncMap in gTP /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package/lib/expression/docs/function/matrix/squeeze.js
+verbose gunzed /home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package
+verbose rm'ed /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs
+verbose renamed [ '/home/administrador/Documents/SD/NodeRPC/node_modules/___mathjs.npm/package',
+verbose renamed   '/home/administrador/Documents/SD/NodeRPC/node_modules/mathjs' ]
+verbose caching /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs/package.json
+verbose loadDefaults mathjs@2.1.1
+info preinstall mathjs@2.1.1
+verbose from cache /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs/package.json
+verbose readDependencies: using package.json deps
+verbose from cache /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'decimal.js@^4.0.2', null ]
+silly cache add: name, spec, args [ undefined, 'decimal.js@^4.0.2', [ 'decimal.js@^4.0.2', null ] ]
+verbose parsed url { pathname: 'decimal.js@^4.0.2',
+verbose parsed url   path: 'decimal.js@^4.0.2',
+verbose parsed url   href: 'decimal.js@^4.0.2' }
+silly cache add: name, spec, args [ 'decimal.js', '^4.0.2', [ 'decimal.js', '^4.0.2' ] ]
+verbose parsed url { pathname: '^4.0.2', path: '^4.0.2', href: '^4.0.2' }
+verbose addNamed [ 'decimal.js', '^4.0.2' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'decimal.js', '^4.0.2' ]
+verbose raw, before any munging decimal.js
+verbose url resolving [ 'https://registry.npmjs.org/', './decimal.js' ]
+verbose url resolved https://registry.npmjs.org/decimal.js
+verbose etag "2DDOM6ESHU2AYU7ODEDZIST0E"
+http GET https://registry.npmjs.org/decimal.js
+verbose cache add [ 'fraction.js@^2.0.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'fraction.js@^2.0.0',
+silly cache add: name, spec, args   [ 'fraction.js@^2.0.0', null ] ]
+verbose parsed url { pathname: 'fraction.js@^2.0.0',
+verbose parsed url   path: 'fraction.js@^2.0.0',
+verbose parsed url   href: 'fraction.js@^2.0.0' }
+silly cache add: name, spec, args [ 'fraction.js', '^2.0.0', [ 'fraction.js', '^2.0.0' ] ]
+verbose parsed url { pathname: '^2.0.0', path: '^2.0.0', href: '^2.0.0' }
+verbose addNamed [ 'fraction.js', '^2.0.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'fraction.js', '^2.0.0' ]
+verbose cache add [ 'tiny-emitter@^1.0.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'tiny-emitter@^1.0.0',
+silly cache add: name, spec, args   [ 'tiny-emitter@^1.0.0', null ] ]
+verbose parsed url { pathname: 'tiny-emitter@^1.0.0',
+verbose parsed url   path: 'tiny-emitter@^1.0.0',
+verbose parsed url   href: 'tiny-emitter@^1.0.0' }
+silly cache add: name, spec, args [ 'tiny-emitter', '^1.0.0', [ 'tiny-emitter', '^1.0.0' ] ]
+verbose parsed url { pathname: '^1.0.0', path: '^1.0.0', href: '^1.0.0' }
+verbose addNamed [ 'tiny-emitter', '^1.0.0' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'tiny-emitter', '^1.0.0' ]
+verbose raw, before any munging fraction.js
+verbose url resolving [ 'https://registry.npmjs.org/', './fraction.js' ]
+verbose url resolved https://registry.npmjs.org/fraction.js
+http GET https://registry.npmjs.org/fraction.js
+verbose cache add [ 'typed-function@^0.10.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'typed-function@^0.10.1',
+silly cache add: name, spec, args   [ 'typed-function@^0.10.1', null ] ]
+verbose parsed url { pathname: 'typed-function@^0.10.1',
+verbose parsed url   path: 'typed-function@^0.10.1',
+verbose parsed url   href: 'typed-function@^0.10.1' }
+silly cache add: name, spec, args [ 'typed-function', '^0.10.1', [ 'typed-function', '^0.10.1' ] ]
+verbose parsed url { pathname: '^0.10.1', path: '^0.10.1', href: '^0.10.1' }
+verbose addNamed [ 'typed-function', '^0.10.1' ]
+verbose addNamed [ null, null ]
+info addNameTag [ 'typed-function', '^0.10.1' ]
+verbose raw, before any munging typed-function
+verbose url resolving [ 'https://registry.npmjs.org/', './typed-function' ]
+verbose url resolved https://registry.npmjs.org/typed-function
+http GET https://registry.npmjs.org/typed-function
+verbose raw, before any munging tiny-emitter
+verbose url resolving [ 'https://registry.npmjs.org/', './tiny-emitter' ]
+verbose url resolved https://registry.npmjs.org/tiny-emitter
+verbose etag "12TQVSVCHNMZCDD5W8QXKB72K"
+http GET https://registry.npmjs.org/tiny-emitter
+silly get cb [ 304, undefined ]
+verbose etag tiny-emitter from cache
+verbose about to build /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs
+ERR! error installing mathjs@2.1.1
+info unbuild /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs
+verbose from cache /home/administrador/Documents/SD/NodeRPC/node_modules/mathjs/package.json
+info preuninstall mathjs@2.1.1
+info uninstall mathjs@2.1.1
+verbose unbuild mathjs@2.1.1 [ true,
+verbose unbuild mathjs@2.1.1   '/home/administrador/Documents/SD/NodeRPC/node_modules',
+verbose unbuild mathjs@2.1.1   '/home/administrador/Documents/SD/NodeRPC/node_modules' ]
+verbose binRoot [ '/home/administrador/Documents/SD/NodeRPC/node_modules/.bin',
+verbose binRoot   { mathjs: './bin/cli.js' } ]
+info postuninstall mathjs@2.1.1
+verbose installOne cb mathjs@2.1.1
+ERR! Error: No compatible version found: tiny-emitter@'^1.0.0'
+ERR! Valid install targets:
+ERR! ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8","0.1.9","0.1.10","0.1.11","0.1.12","1.0.0"]
+ERR!     at installTargetsError (/usr/share/npm/lib/cache.js:488:10)
+ERR!     at /usr/share/npm/lib/cache.js:375:15
+ERR!     at saved (/usr/share/npm/lib/utils/npm-registry-client/get.js:147:7)
+ERR!     at Object.oncomplete (/usr/lib/nodejs/graceful-fs.js:230:7)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/administrador/Documents/SD/NodeRPC/RPCAtividade1/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.2.0-31-generic
+ERR! command "node" "/usr/bin/npm" "install" "mathjs"
+ERR! cwd /home/administrador/Documents/SD/NodeRPC/RPCAtividade1
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message No compatible version found: tiny-emitter@'^1.0.0'
+ERR! message Valid install targets:
+ERR! message ["0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8","0.1.9","0.1.10","0.1.11","0.1.12","1.0.0"]
+verbose exit [ 1, true ]
